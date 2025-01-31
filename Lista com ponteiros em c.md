@@ -1,5 +1,5 @@
-Lista com ponteiros (e alocação dinâmica:malloc()/free()) em c
-...
+Lista com ponteiros (e alocação dinâmica: malloc()/free()) em c
+```
 #include <stdio.h>
 #include <conio.h>
 #include <stdlib.h>
@@ -111,4 +111,4 @@ int main()
 	free(lista);
 	return 0;
 }
-...
+```
