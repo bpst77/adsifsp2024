@@ -1,7 +1,7 @@
-#Teste para experimentar os algoritmos e observar o tempo levado para conclusão
+# Teste para experimentar os algoritmos e observar o tempo levado para conclusão
 
+Códigos usados para testar determinados algoritmos de ordenação(bubble, insertion, etc) em C:  
 Créditos para [Daniel Viana](treinaweb.com.br/blog/conheca-os-principais-algoritmos-de-ordenacao)
-Códigos usados para testar determinados algoritmos de ordenação(bubble, insertion, etc) em C:
 
 Para testar cada um
 ```
@@ -182,7 +182,6 @@ int main() {
 
 Completo
 ```
-//usando a maior parte do moddle xd
 #include <stdio.h>
 #include <stdlib.h>     /* necess�rio p/ as fun��es rand() e srand() */
 #include <time.h>   	/* for clock_t, clock(), CLOCKS_PER_SEC      */
