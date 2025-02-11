@@ -241,7 +241,7 @@ void selection (){
 
 void mergeSort(int posicaoInicio, int posicaoFim) {
 		int i, j, k, metadeTamanho, *vetor, *vetorTemp;
-		vetor = &vet;
+		vetor = vet;
 		if(posicaoInicio == posicaoFim) return;
 		metadeTamanho = (posicaoInicio + posicaoFim ) / 2;
 	
@@ -310,7 +310,7 @@ void quick(int esq, int dir){
 
  
 int main() {
-	int i, c, ww;
+	int c, ww;
 		
 	gerar_vetor(TAMANHO);
 
