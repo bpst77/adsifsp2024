@@ -325,9 +325,6 @@ int main() {
 	scanf("%d", &c);
 	system("cls");
 
-	printf("\nVetor antes de ser ordenado ==> ");
-	for (i=0; i<TAMANHO; i++) printf(" %d ", vet[i]);
-
 	clock_t begin = clock();		/* tempo inicial */
 
 	switch(c)
@@ -359,8 +356,6 @@ int main() {
       		 dividing the difference by CLOCKS_PER_SEC to convert to seconds */
 	time_spent += (double)(end - begin) / CLOCKS_PER_SEC;
 
-	printf("\n\nVetor ordenado ==> ");
-	for (i=0; i<TAMANHO; i++) printf(" %d ", vet[i]);
 	
 	printf("\nO tempo gasto foi de %f seconds", time_spent);
 	printf("\n\n");
