@@ -8,6 +8,7 @@ Para testar cada um
 //usando a maior parte do moddle xd
 #include <stdio.h>
 #include <stdlib.h>     /* necess�rio p/ as fun��es rand() e srand() */
+#include <time.h>
 
 #define TAMANHO 10 //tamanho a ordenar
 int vet[TAMANHO];
