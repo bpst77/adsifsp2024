@@ -1,4 +1,4 @@
-# Teste para experimentar os algoritmos e observar o tempo levado para conclusão
+### Teste para experimentar os algoritmos e observar o tempo levado para conclusão
 
 Códigos usados para testar determinados algoritmos de ordenação(bubble, insertion, etc) em C:  
 Créditos para [Daniel Viana](https://treinaweb.com.br/blog/conheca-os-principais-algoritmos-de-ordenacao)
