@@ -36,18 +36,17 @@ void bubble(){
 }
 
 void insertion (){
-	int i, j, x;
-	for (i=2; i<=TAMANHO; i++){
-		x = vet[i];
-		j=i-1;
-		vet[0] = x; 
-		while (x < vet[j]){
-			vet[j+1] = vet[j];
-			j--;
+		int i, j, x;
+		for (i=1; i<TAMANHO; i++){
+			x = vet[i];
+			j=i-1;
+			while (x < vet[j]){
+				vet[j+1] = vet[j];
+				j--;
+			}
+			vet[j+1] = x;
+			}
 		}
-		vet[j+1] = x;
-		}
-	}
 
 void selection (){
 		int i, j, min, x;
@@ -179,8 +178,7 @@ int main() {
 
 	return 0;
 }
-```
-
+```  
 Completo
 ```
 #include <stdio.h>
@@ -213,18 +211,17 @@ void bubble(){
 }
 
 void insertion (){
-	int i, j, x;
-	for (i=2; i<=TAMANHO; i++){
-		x = vet[i];
-		j=i-1;
-		vet[0] = x; 
-		while (x < vet[j]){
-			vet[j+1] = vet[j];
-			j--;
+		int i, j, x;
+		for (i=1; i<TAMANHO; i++){
+			x = vet[i];
+			j=i-1;
+			while (x < vet[j]){
+				vet[j+1] = vet[j];
+				j--;
+			}
+			vet[j+1] = x;
+			}
 		}
-		vet[j+1] = x;
-		}
-	}
 
 void selection (){
 		int i, j, min, x;
