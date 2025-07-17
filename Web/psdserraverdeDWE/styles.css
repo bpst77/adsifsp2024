@@ -1,0 +1,123 @@
+#margemtotal
+{
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+#margemtexto
+{
+    margin-left: 30px;
+    margin-right: 40px;
+}
+
+/* GERAL */
+body{
+    background-image: url('folhas.png');
+    font-family: cursive;
+    font-style: oblique;
+}
+
+nav{
+    text-align: center;
+}
+
+#navm{
+	background-image: url('paisagem.png');
+    background-repeat: no-repeat;
+    margin-bottom: -15px;
+}
+
+#navelemento{
+    text-decoration: none;
+    font-size: 120%;
+    color: #307330;
+    border: solid thin #4d7b4d;
+    padding: 10px 50px;
+    border-radius: 10px;
+    background-color: white;
+    font-style: oblique;
+}
+
+#meio{
+	background: linear-gradient(#307330, #65e265);
+    margin-bottom: 0px;
+    padding-top: 5px;
+}
+
+#imagens{
+    text-align: center;
+}
+
+#fim{
+	background-color: #4d7b4d;
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+/* ESPECIFICA */
+div h1::selection{
+    color: white;
+}
+div image{
+    text-align: center;
+}
+
+h1{
+	color: #4d7b4d;
+    font-size: 350%;
+    text-align: center;
+    font-style: bold;
+}
+
+h2{
+	text-align: center;
+}
+
+img{
+    margin: 0px 10px;
+}
+
+table{
+    border-collapse: collapse;
+    margin: 0px 10px;
+    width: 99%;
+}
+
+td{
+    background-color: white;
+    border: solid thin black;
+}
+
+#td1{
+    text-align: left;
+}
+
+th{
+    background-color: #4d7b4d;
+    color: black;
+    border: solid thin black;
+}
+
+fieldset{
+    border-color: black;
+}
+
+audio{
+    display: block;
+}
+
+div + div{
+    margin-top: 3px;
+}
+
+div > p::first-letter{
+    font-size: 110%;
+}
+
+a:hover{
+    color: #6f3bff !important;
+}
+
+a:active{
+    color: #b3ffb3 !important;
+}

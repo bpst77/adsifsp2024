@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>home</title>
+    <link rel="stylesheet" href="styles.css">
+    <script>
+        function trocar(){
+        const elemento = document.getElementById("inv");
+        if (elemento.style.display === "none") {
+            elemento.style.display = "block";
+        } else {
+            elemento.style.display = "none";
+        }
+        }
+    </script>
+</head>
+
+<body>
+	<div id='margemtotal'>
+        <div id='navm'>
+            <h1>Pousada Serra Verde</h1>
+            <br>
+            <nav>
+                <a id='navelemento' href='home.html'>Home</a>
+                <a id='navelemento' href='apousada.html'>A pousada</a>
+                <a id='navelemento' href='reservas.html'>Reservas</a>
+                <a id='navelemento' href='tarifas.html'>Tarifas</a>
+                <a id='navelemento' href='comochegar.html'>Como checar</a>
+            </nav>
+            <br>
+            <br>
+        </div> <!--nav-->
+        <div id='meio'>
+            <div id='margemtexto'>
+                <h2>Tranquilidade e contato com a natureza ao seu alcance</h2>
+                <p>A região de <b>Campos do Jordão</b> é rica em roteiros deslumbrantes em que a natureza se mostra magnífica a todo instante. Quem passa por aqui, além de desfrutar das maravilhas da Serra da Mantiqueira, também poderá se deliciar com a rica gastronomia da cidade mais charmosa do Brasil.</p>
+                <a onclick='trocar()'>▶Leia mais</a>
+                <p id='inv' style='display: none'>
+                    A “Suíça brasileira” oferece atrativos em qualquer época do ano. Do turismo de aventura aos que buscam apenas tranquilidade, Campos do Jordão tem opções para todas idades, gostos e bolsos. Quer aproveitar todas essas maravilhas com conforto, lazer e ótimos preços? Venha se hospedar na Pousada Serra Verde!
+                </p>
+                
+                <p style="text-align: center;"><b> Venha se hospedar na Pousada Serra Verde!</b></p>
+                <div id='imagens'>
+                    <img src='mid/foto1.jpg'><img src='mid/foto2.jpg'><img src='mid/foto3.jpg'>
+                </div>
+                <br>
+                <div>
+                <p><b>Entre em contato!</b><br><br>
+                Telefone: (12) 4321-1234<br>
+                E-mail: atendimento@pousadaserraverde.tur.br<br>
+                Estrada dos Pinheiros, Km 7,5<br>
+                Campos do Jordão - SP
+                </p>
+            </div>
+        </div> <!--meio-->
+        <div id="fim">
+            <p>Desenvolvido por Tech Hotelaria</p>
+        </div ><!--fim-->
+    </div> <!--margemtotal-->
+</body>
+
+<html>
