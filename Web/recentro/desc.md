@@ -9,6 +9,6 @@ A ideia completa se baseia num sistema com uma aplicação web e mobile, que ter
 #### Programa uvicorn(host local da api)
 
 ### Instruções
-1- iniciar o sql server localmente
-2- hostear a api localmente com o uvicorn
+1- iniciar o sql server localmente  
+2- hostear a api localmente com o uvicorn  
 3- fazer os testes na aplicação web :)
