@@ -1,5 +1,4 @@
-### Banco utilizado: 
-SQL Server
+### Banco utilizado: SQL Server
 
 ### Modelo Conceitual
 ![a](conceitual.png)
