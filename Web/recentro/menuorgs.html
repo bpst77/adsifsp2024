@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Lista de Orgs - Recentro</title>
+  <link href="styles.css" rel="stylesheet">
+  <script src="script.js"></script>
+</head>
+
+<body onload="carregarOrgs()">
+    <main class="ini-fundo">
+        <div class="header">
+            <p>Conectado como <b>administrador</b></p>
+            <div class="h-links row" style="width: 80%; justify-self: center;">
+                <a href="" class="col"><p>Sair</p></a>
+                <a href="" class="col"><p>Ver perfil</p></a>
+            </div>
+        </div>
+
+        <section class="ini-main">
+            <div class="ini-lin">
+                <div class="ini-col3">
+                    <div class="col3-info" style="padding: 10px;">
+                        <img src="imgs/pchd-img.png" alt="Não consigo ler" class="info-img">
+                        <p id="iNome">------</p>
+                        <p id="iReg">------</p>
+                        <p id="iEnd">------</p>
+                        <div class="info-ctt">
+                            <div class="ctt1"><p>------</p></div>
+                            <div class="ctt2"><img src="imgs/troca.png" onclick="trocaCtt()" class="icon1" style="cursor: pointer;"></div>
+                        </div>
+                    </div>
+
+                    <div class="col3-btn row">
+                        <button class="col btn1 btn1-m" onclick="delOrg()">Remover</button>
+                        <a href="editorg.html" class="col btn1" style="align-content: center;">Editar</a>
+                    </div>
+                </div>
+
+                <div class="ini-col4" style="padding-left: 10px;">
+                        <form class="row col4-fil">
+                        <div class="col">
+                            <select class="form-select form-select fil-slt" aria-label="Small select example">
+                            <option value="" selected disabled>Região</option>
+                            <option value="n">Norte</option>
+                            <option value="nl">Nordeste</option>
+                            <option value="c">Centro</option>
+                            <option value="sl">Suldeste</option>
+                            <option value="s">Sul</option>
+                            </select>
+                        </div>
+                        <div class="col">
+                            <select class="form-select form-select" aria-label="Small select example">
+                            <option selected>Tipo residual</option>
+                            <option value="1">Reciclagem</option>
+                            <option value="2">Doméstico</option>
+                            <option value="3">Industrial</option>
+                            <option value="4">Hospitalar</option>
+                            <option value="5">Agrícola</option>
+                            <option value="6">Eletrônico</option>
+                            <option value="7">Radioativo</option>
+                            </select>
+                        </div>
+                        <div class="col-auto">
+                            <button type="submit" class="btn btn-primary mb-3">Filtrar</button>
+                            <a href=""><img src="imgs/limpa.png" class="icon2" style="margin-top: -10px;"></a>
+                        </div>
+                        </form>
+
+                    <div class="col4-dw">
+                        <div class="col4-orgs">
+                            <!--
+                            <div class="org tirar" onclick="EscolheOrg(this.id)" id="3">
+                                <div class="ini-lin">
+                                    <div class="ini-col3">
+                                        <img src="pchd-img.png" class="org-img">
+                                    </div>
+                                    <div class="ini-col4 org-desc">
+                                        <p style="justify-self: left;">Nome de exemplo</p>
+                                        <p style="justify-self: left;">Endereço de exemplo</p>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <section class="orgs-x"></section>
+                            -->
+                        </div>
+                        
+                        <div class="col4-btns row" style="gap: 40px;">
+                            <a class="col btn2" href="home.html">Voltar</a>
+                            <btn class="col btn2">Gerenciar solicitações</btn>
+                            <a class="col btn2" href="adiorg.html">Adicionar</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.min.js" integrity="sha384-RuyvpeZCxMJCqVUGFI0Do1mQrods/hhxYlcVfGPOfQtPJh0JCw12tUAZ/Mv10S7D" crossorigin="anonymous"></script>
+</body>
+</html>
