@@ -2,7 +2,7 @@
 SQL Server
 
 ### Modelo Conceitual
-![a](/conceitual.png)
+![a](conceitual.png)
 
 ### Físico
 ```
