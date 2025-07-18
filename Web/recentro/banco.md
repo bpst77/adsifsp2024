@@ -5,7 +5,7 @@ SQL Server
 ![a](/conceitual.png)
 
 ### Físico
-'''
+```
 CREATE TABLE Org (
     org_id INTEGER PRIMARY KEY,
     user_id INTEGER,
@@ -88,4 +88,4 @@ ALTER TABLE Org_especialidade ADD CONSTRAINT FK_Org_especialidade_2
     FOREIGN KEY (org_id)
     REFERENCES Org (org_id)
     ON DELETE CASCADE;
-'''
+```
