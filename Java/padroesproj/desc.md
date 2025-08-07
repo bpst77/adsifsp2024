@@ -1,5 +1,7 @@
-#### Padrões de projeto
+### Padrões de projeto
 ##### Basicamente modelos preparados para atender a certas rotinas e funções que um sistema dispõe
 
-#### Neste rep
+### Neste rep
 ##### Facade, Factory, Singletown, Observer, Adapter
+
+#### Cada arquivo é um programa
