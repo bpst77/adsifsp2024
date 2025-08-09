@@ -1,5 +1,7 @@
 package aplicjava;
 
+//No Singleton basicamente, você limite o uso de um processo ou a instanciação de uma classe até somente 1
+
 //classe admin
 public class Singleton {
     private String status;
@@ -25,4 +27,5 @@ class obsMain {
         if (s1 != null) {System.out.println("Conta acessada");};
         if (s2 != null) {System.out.println("Conta acessada");};
     }
+
 }
