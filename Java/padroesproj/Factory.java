@@ -1,5 +1,7 @@
 package aplicjava;
 
+//Apenas uma classe cuida da instanciação de novos objetos sem o solicitante necessariamente entender o que ocorre
+
 interface Registro{
     public String getDados();
 }
@@ -54,3 +56,4 @@ class fctMain {
         System.out.println(r.getDados());
     }
 }
+
