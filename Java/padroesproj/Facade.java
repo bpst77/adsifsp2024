@@ -1,5 +1,7 @@
 package aplicjava;
 
+//A rotina ou processos feitos para tal objeto são escondidos dele
+
 import java.util.*;
 
 class Prof{
@@ -68,4 +70,5 @@ class FacadeMain{
     public static void main(String[] args) {
         new Facade().fazerReserva("Carlos Eduardo");
     }
+
 }
