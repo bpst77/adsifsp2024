@@ -2,6 +2,8 @@ package aplicjava;
 import java.util.ArrayList;
 import java.util.List;
 
+//Os objetos são notificados por um observador e atualizam os seus valores referentes a outro objeto
+
 interface Subject {
     public void addObserver(Observer o);
 
@@ -63,8 +65,8 @@ class obsMain {
 
         CentralSubject cs = new CentralSubject();
 
-        Assinante a = new Assinante("Carlos", 1, v);
-        Assinante b = new Assinante("Craudia", 2, v);
+        Assinante a = new Assinante("Sabero", 1, v);
+        Assinante b = new Assinante("Silva", 2, v);
 
         System.out.println("Antes");
         a.getValor();
@@ -81,4 +83,5 @@ class obsMain {
         a.getValor();
         b.getValor();
     }
+
 }
