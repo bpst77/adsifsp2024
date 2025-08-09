@@ -1,5 +1,7 @@
 package aplicjava;
 
+//Um componente velho é adaptado para funcionara assim como o novo
+
 class Serviço{
     public void imprime(newComp componente){
         System.out.println(componente.getDados());
@@ -52,3 +54,4 @@ class adpMain{
         s.imprime(adaptado);
     }
 }
+
