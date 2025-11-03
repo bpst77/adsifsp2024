@@ -3,4 +3,4 @@
 #### Dependências: Pyqt5
 #### Obs: um arquivo txt é criado no diretório do script para armazenar dados  
 
-Previa: ![a](link)
+#### Previa: ![a](link)
